@@ -1,0 +1,135 @@
+@media screen and (max-width:1000px) {
+
+	.tituloscenter {
+		padding: 10px;
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	.titulo-home {
+		text-align: left;
+		font-size: 2rem;
+		font-weight: bold;
+	}
+
+	.titulo-1 {
+		text-align: center;
+		font-size: 2rem;
+		font-weight: bold;
+	}
+
+	.segundotexto {
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.titulos {
+		padding: 10px;
+		font-size: 9vw;
+		text-align: center;
+	}
+
+	.imagen-servicios {
+		border-radius: 7%;
+		width: 100%;
+		height: 100%;
+	}
+
+	.img-portafolio {
+		width: 45%;
+		padding: 10;
+		margin: 5px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+
+	.sobre-nosotros {
+		padding: 10px;
+	}
+
+	.descripcion1 {
+		padding: 30px;
+		width: 100%;
+		font-size: 1rem;
+		text-align: justify;
+	}
+
+	.imagen1 {
+		width: 60%;
+	}
+
+	.imagen1-1 {
+		width: 60%;
+		margin-bottom: 20px;
+	}
+
+	.comentario {
+		padding: 20px;
+		margin: 20px;
+		font-size: 1rem;
+		text-align: justify;
+	}
+
+	.algunos-servicios {
+		width: 100%;
+		padding: 5px;
+	}
+
+	.descripcion2 {
+		padding: 20px;
+		margin: 20px;
+		width: 100%;
+		font-size: 1rem;
+		text-align: justify;
+	}
+
+	.imagendibujo {
+		width: 100%;
+	}
+
+	.c1 {
+		border: 1px solid rgb(162, 162, 162);
+		background-image: url(../img/imagen\ 2.jpg);
+		color: $color_1;
+		width: 46%;
+		height: 400px;
+		line-height: 400px;
+		text-align: center;
+		margin: 5px;
+		font-size: 2rem;
+	}
+
+	.c2 {
+		border: 1px solid rgb(162, 162, 162);
+		background-image: url(../img/chica\ 1\ .jpg);
+		color: $color_1;
+		width: 46%;
+		height: 400px;
+		line-height: 400px;
+		text-align: center;
+		margin: 5px;
+		font-size: 2rem;
+	}
+
+	.c3 {
+		border: 1px solid rgb(162, 162, 162);
+		background-image: url(../img/imagen\ 3.jpg);
+		color: $color_1;
+		width: 100%;
+		height: 400px;
+		line-height: 400px;
+		text-align: center;
+		margin: 5px;
+		font-size: 2rem;
+	}
+
+	.anchocontacto {
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}

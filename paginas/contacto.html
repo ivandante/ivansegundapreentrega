@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/estilos.css">
+  <title>Contacto-Ivan</title>
+
+
+</head>
+
+<body class="fondocontacto">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
+  <header>
+
+    <nav class="navbar bg-body-tertiary" style="background-color: #ffffff; margin-bottom: 1px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="../img/Logo_sobre_moda_femenina_minimalista_neutral-removebg-preview.png" alt="Logo Isabel"
+            width="60%" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Ivan Dante</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="../paginas/nosotros.html">Sobre nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" href="../paginas/servicios.html">Servicios</a></li>
+              <li class="nav-item"><a class="nav-link" href="../paginas/portafolio.html">Portafolio</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page"
+                  href="../paginas/contacto.html">Contactanos</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="position-static d-block p-4 py-md-5 container">
+    <form class="p-5 mb-4 bg-body-tertiary rounded-3  anchocontacto">
+
+      <h1 class="titulo-1"> Contacto </h1>
+
+
+      <div class="row py-2">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+        </div>
+      </div>
+      <div class="mb-3 py-2 ">
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu email">
+      </div>
+      <div class="mb-3">
+        <select class="form-select py-2" aria-label="Default select example">
+          <option selected>servicio de interés</option>
+          <option value="1">Fotografía</option>
+          <option value="2">Diseño web</option>
+          <option value="3">Desarrollo web</option>
+        </select>
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="submit" class="btn btn-warning">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="col-md-6">
+  </div>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <h4>Ivan Dante</h4>
+    <span class="mb-3 mb-md-0 text-white text-white text-opacity-75 fs-5">© 2023 Company, Inc</span>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary"
+          href="https://www.linkedin.com/school/coderhouse/?originalSubdomain=ar" target="_blank"><img
+            src="../img/linkedin.png" class="bi" width="24" height="24">
+          </img>
+        </a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/coderhouse/?hl=es%2F/"
+          target="_blank"><img src="../img/instagram.png" class="bi" width="24" height="24">
+          </img>
+        </a></li>
+    </ul>
+
+  </footer>
+
+</body>

@@ -1,0 +1,500 @@
+header {
+  background-color: rgba(213, 213, 213, 0.548);
+}
+
+nav {
+  position: center;
+  background-color: rgba(213, 213, 213, 0.548);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  max-width: 2000px;
+}
+
+nav {
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 10rme;
+}
+
+p {
+  padding: 0px, 80px, 0px, 80px;
+}
+
+body {
+  font-family: "Courier Prime", monospace;
+  font-family: "Playfair Display", serif;
+}
+
+.titulo-1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  position: relative;
+  display: inline;
+  padding: 0%;
+  margin: 0%;
+}
+ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 50px;
+}
+
+.titulos {
+  padding: 10px;
+  font-size: 4rem;
+  text-align: left;
+}
+
+.tituloscenter {
+  padding: 10px;
+  font-size: 4rem;
+  text-align: center;
+}
+
+/*BOTONES*/
+.btn {
+  text-decoration: none;
+  padding: 20px 50px;
+  font-size: 1.5rem;
+  position: relative;
+  margin: 10px;
+}
+
+.btn-2 {
+  color: black;
+}
+
+.btn-2::after,
+.btn-2::before {
+  border: 3px solid rgb(243, 156, 18);
+  border-radius: 4%;
+  content: "";
+  position: absolute;
+  width: calc(100% - 3px);
+  height: calc(100% - 3px);
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.btn-2:hover::after {
+  transform: translate(-5px, -5px);
+}
+
+.btn-2:hover::before {
+  transform: translate(5px, 5px);
+}
+
+.bannerservicios {
+  background-image: url(../img/pexels-daan-stevens-939331.jpg);
+  padding: 90px;
+}
+
+.imagen-servicios {
+  border-radius: 7%;
+  width: 30%;
+  height: 30%;
+}
+
+.primeraseccion {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  display: contents;
+}
+
+.imagenservicios1 {
+  width: 60%;
+  border-radius: 5%;
+  margin-left: 8%;
+}
+
+.imagenservicios2 {
+  width: 60%;
+  border-radius: 5%;
+  margin-left: 15%;
+  margin-top: -20%;
+}
+
+/*Primera seccion */
+.colum1 {
+  padding: 30px;
+  width: 40%;
+}
+
+.titulo-home {
+  text-align: left;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.segundotexto {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.colum2 {
+  width: 40%;
+}
+
+.imagenheader {
+  width: 90%;
+  border-radius: 4%;
+}
+
+/*segunda seccion */
+.sobre-nosotros {
+  padding: 90px;
+}
+
+.fondo {
+  background-image: url(../img/fondo-gris.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colum1-2 {
+  width: 49%;
+  padding: 15px;
+  color: black;
+}
+
+.colum2-2 {
+  width: 50%;
+  padding: 20px;
+  color: black;
+}
+
+.descripcion1 {
+  padding: 30px;
+  box-sizing: border-box;
+  min-width: 250px;
+  text-align: left;
+}
+
+.imagen1 {
+  width: 60%;
+  border-radius: 5%;
+  margin-left: 8%;
+}
+
+.imagen1-1 {
+  width: 60%;
+  border-radius: 5%;
+  margin-left: 15%;
+  margin-top: -10%;
+}
+
+/* Tercera seccion*/
+.fondo-solo {
+  background-image: url(../img/imagen-de-una-chica.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+  background-attachment: fixed;
+}
+
+.comentario {
+  padding: 5%;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.fondo-comentario {
+  background-color: aliceblue;
+}
+
+/*cuarta seccion*/
+.colum4 {
+  padding: 30px;
+}
+
+.descripcion2 {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.algunos-servicios {
+  display: flex;
+  padding: 90px, 90px, 90px, 90px;
+  margin: 90px;
+  position: sticky;
+}
+
+.imagendibujo {
+  border-radius: 7%;
+  width: 500px;
+  height: 333px;
+}
+
+.container-flex {
+  border: 1px rgb(179, 179, 179);
+  display: flex;
+  padding: 90px;
+  justify-content: center;
+}
+
+.caja {
+  border: 1px solid rgb(162, 162, 162);
+  background-color: aliceblue;
+  color: black;
+  width: 400px;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+  margin: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.c1 {
+  border: 1px solid rgb(162, 162, 162);
+  background-image: url(../img/imagen\ 2.jpg);
+  color: black;
+  width: 400px;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+  margin: 5px;
+}
+
+.c2 {
+  border: 1px solid rgb(162, 162, 162);
+  background-image: url(../img/chica\ 1\ .jpg);
+  color: black;
+  width: 400px;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+  margin: 5px;
+}
+
+.c3 {
+  border: 1px solid rgb(162, 162, 162);
+  background-image: url(./img/imagen\ 3.jpg);
+  color: black;
+  width: 400px;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+  margin: 5px;
+}
+
+.flxbox {
+  background-color: rgba(213, 213, 213, 0.548);
+}
+
+.bannernosotros {
+  background-image: url(../img/pexels-daan-stevens-939331.jpg);
+  padding: 90px;
+}
+
+.imagennosotros {
+  width: 60%;
+  border-radius: 5%;
+  margin-left: 8%;
+}
+
+.imagennosotros2 {
+  width: 60%;
+  border-radius: 5%;
+  margin-left: 15%;
+  margin-top: -40%;
+}
+
+.bannerportafolio {
+  background-image: url(../img/pexels-daan-stevens-939331.jpg);
+  padding: 90px;
+}
+
+.row {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.img-portafolio {
+  width: 25%;
+}
+
+@media screen and (max-width: 1000px) {
+  .tituloscenter {
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .titulo-home {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .titulo-1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .segundotexto {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: left;
+  }
+  .titulos {
+    padding: 10px;
+    font-size: 9vw;
+    text-align: center;
+  }
+  .imagen-servicios {
+    border-radius: 7%;
+    width: 100%;
+    height: 100%;
+  }
+  .img-portafolio {
+    width: 45%;
+    padding: 10;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sobre-nosotros {
+    padding: 10px;
+  }
+  .descripcion1 {
+    padding: 30px;
+    width: 100%;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .imagen1 {
+    width: 60%;
+  }
+  .imagen1-1 {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  .comentario {
+    padding: 20px;
+    margin: 20px;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .algunos-servicios {
+    width: 100%;
+    padding: 5px;
+  }
+  .descripcion2 {
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .imagendibujo {
+    width: 100%;
+  }
+  .c1 {
+    border: 1px solid rgb(162, 162, 162);
+    background-image: url(../img/imagen\ 2.jpg);
+    color: black;
+    width: 46%;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    margin: 5px;
+    font-size: 2rem;
+  }
+  .c2 {
+    border: 1px solid rgb(162, 162, 162);
+    background-image: url(../img/chica\ 1\ .jpg);
+    color: black;
+    width: 46%;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    margin: 5px;
+    font-size: 2rem;
+  }
+  .c3 {
+    border: 1px solid rgb(162, 162, 162);
+    background-image: url(../img/imagen\ 3.jpg);
+    color: black;
+    width: 100%;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    margin: 5px;
+    font-size: 2rem;
+  }
+  .anchocontacto {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+footer {
+  margin: 10px;
+  background-color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  color: azure;
+  padding: 30px;
+}
+
+.fondocontacto {
+  background-image: url(../img/fondorosa.jpg);
+}
+
+/*# sourceMappingURL=estilos.css.map */
+
+/* Lo hacemos responsive*/
+
+/* vista tablet*/
+/*768px hasta 1023*/
+
+@media (max-width:1023px) {
+  /*header*/
+  .encabezado{
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+ 
+}
